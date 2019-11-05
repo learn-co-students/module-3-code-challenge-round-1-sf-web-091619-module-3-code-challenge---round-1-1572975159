@@ -25,7 +25,7 @@ This Code Challenge is designed to test your abilities in a similar situation to
 - Fetching from APIs
 
 ## Instructions
-
+ 
 Today we're building an app for viewing, liking, and commenting on a single picture. There is a backend API deployed on a server that you will use. You will be building out the frontend for this app.
 
 A user of your app must be able to do the following things:
