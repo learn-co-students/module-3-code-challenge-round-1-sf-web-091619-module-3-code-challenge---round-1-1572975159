@@ -33,7 +33,7 @@ A user of your app must be able to do the following things:
 - As a user, when the page loads, I should see:
   - an image
   - any comments that image has
-  - the number of likes that image has
+  - the number of likes that image has 
 
 - As a user, I can click a button to like an image. When I click, the number of likes the image has should increase by one without the page refreshing.
 
