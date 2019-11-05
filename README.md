@@ -51,7 +51,7 @@ For this challenge it is important to work iteratively: one feature at a time, b
 
 We have provided a series of prioritized steps to help you break down your approach this problem:
 
-## Step 1 - Get the Image Data
+<!-- ## Step 1 - Get the Image Data
 
 When the page loads, you will need to make a request to the API to get the data about your picture. The API follows RESTful conventions, but *make sure you read the API documentation* to familiarize yourself with the models, their associations, and the available endpoints of the API.
 
@@ -93,9 +93,9 @@ Use the data from the API response to change what's currently on the page (take 
 - the number of likes
 - any comments in an unordered list
 
-(If you cannot get your fetch request to work correctly, you can  use the example response above to append content to the DOM and attempt the subsequent steps)
+(If you cannot get your fetch request to work correctly, you can  use the example response above to append content to the DOM and attempt the subsequent steps) -->
 
-## Step 2 - Like Feature (Frontend)
+<!-- ## Step 2 - Like Feature (Frontend)
 
 The next feature to approach is the functionality to add likes to a picture. First, get this working in the browser only without worrying about persistence.
 
@@ -103,9 +103,9 @@ Clicking the 'Like' button should increase the number of likes shown on the page
 
 A user can like the same picture multiple times.
 
----
+--- -->
 
-## Step 3 - Like Feature (Backend)
+<!-- ## Step 3 - Like Feature (Backend)
 
 This app will use what is called _optimistic rendering_. This means the DOM will be updated *before* the changes are added to the database. When a user clicks the 'Like' button we will immediately update the DOM. Next, your job is to make a POST request to persist the new Like in the backend database.
 
@@ -144,7 +144,7 @@ Since we are using optimistic rendering, you shouldn't have to do anything with 
 
 To test your code, make sure the number of likes increments when you click the like button. Then, refresh the page and make sure the increased number of likes remains the same.
 
----
+--- -->
 
 ## Step 4 - Comment Feature (Frontend)
 
